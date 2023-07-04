@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+}
+.app {
+  margin: 0;
+  width: 99%;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle {
+  width: 80%;
+  height: 90vh;
+  background-color: #27296d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.main {
+  background-color: #f2f2f2;
+  height: 70vh;
+  border-radius: 20px;
+  padding: 10px;
+  overflow: auto;
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: #27296d;
+}
+.img-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-image {
+  width: 100%;
+}
+h1 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+  font-weight: 600;
+  
+}
+.updates{
+transition: all 200ms ease-in;
+  cursor: pointer;
+}
+.updates:hover {
+  font-weight: 900;
+}
+i {
+  color: #6c63ff;
+  font-size: 1rem;
+}
+
+form {
+  width: 100%;
+}
+.email-label {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.email-inp {
+  width: 100%;
+  margin: 1vh 0;
+  padding: 6px;
+  border: 1px solid #27296d;
+  border-radius: 4px;
+  background: none;
+  color: #27296d;
+}
+.email-btn {
+  width: 100%;
+  margin: 10px auto;
+  padding: 6px;
+  border: 1px solid #27296d;
+  border-radius: 4px;
+  color: #27296d;
+  transition: all 0.5s ease-in-out;
+}
+.email-btn:hover {
+  background-color: #27296d;
+  color: #f2f2f2;
+}
+#successMessage {
+  color: #6c63ff;
+  font-weight: bold;
+  margin-top: 10px;
+}
